@@ -1,0 +1,110 @@
+html, body {
+  background: #F22F46;
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.terminal-window {
+  text-align: left;
+  width: 98%;
+  height: 90%;
+  border-radius: .625rem;
+  margin: auto;
+  position: relative;
+}
+
+.terminal-window header {
+  background: #E0E8F0;
+  height: 1.875rem;
+  border-radius: .5rem .5rem 0 0;
+  padding-left: .625rem;
+}
+
+.terminal-window header .button {
+  width: .75rem;
+  height: .75rem;
+  margin: .625rem .25rem 0 0;
+  display: inline-block;
+  border-radius: .5rem;
+}
+
+.terminal-window header .button.green {
+  background: #3BB662;
+}
+
+.terminal-window header .button.yellow {
+  background: #E5C30F;
+}
+
+.terminal-window header .button.red {
+  background: #E75448;
+}
+
+.terminal-window section.terminal {
+  color: white;
+  font-family: Menlo, Monaco, "Consolas", "Courier New", "Courier";
+  font-size: 25pt;
+  background: #30353A;
+  padding: 1.625rem 1.625rem 3rem 1.625rem;
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  top: 1.875rem;
+  bottom: 0;
+  overflow: auto;
+  border-radius: 0 0 .5rem .5rem;
+}
+
+.terminal-window section.terminal .typed-cursor {
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.terminal-data { display: none; }
+.terminal-window .gray { color: gray; }
+.terminal-window .green { color: green;}
+
+.terminal-window section.terminal .typed-cursor {
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.terminal-data { display: none; }
+.terminal-window .gray { color: gray; }
+.terminal-window .green { color: green;}
