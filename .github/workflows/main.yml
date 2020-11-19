@@ -21,5 +21,6 @@ jobs:
     # Runs a single command using the runners shell
     - name: Webhook
       uses: distributhor/workflow-webhook@v1.0.5
-      with:
-        webhook_url: "https://forge.laravel.com/servers/312638/sites/1190021/deploy/http?token=WE8aAjcbRp5ppwH8hDgCei6dosywqK3S4dqMcOlZ"
+      env:
+        webhook_url: ${{ secrets.WEBHOOK_URL }}
+        webhook_secret: ${{ secrets.WEBHOOK_SECRET }}
