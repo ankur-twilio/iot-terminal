@@ -22,4 +22,4 @@ jobs:
     - name: Webhook
       uses: distributhor/workflow-webhook@v1.0.5
       with:
-        url: "https://forge.laravel.com/servers/312638/sites/1190021/deploy/http?token=WE8aAjcbRp5ppwH8hDgCei6dosywqK3S4dqMcOlZ"
+        webhook_url: "https://forge.laravel.com/servers/312638/sites/1190021/deploy/http?token=WE8aAjcbRp5ppwH8hDgCei6dosywqK3S4dqMcOlZ"
