@@ -1,0 +1,11 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+  uses: joelwmale/webhook-action@2.0.2
+    with:
+      # The url to send the webhook event to
+      url: https://forge.laravel.com/servers/312638/sites/1190021/deploy/http?token=WE8aAjcbRp5ppwH8hDgCei6dosywqK3S4dqMcOlZ Copy
+      # Additional headers to send alongside the defaults
+      headers: # optional
+      # The data sent to the webhook
+      body: # optional
