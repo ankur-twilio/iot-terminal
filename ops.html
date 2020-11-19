@@ -26,5 +26,14 @@
 		</div>
 	</body>
 
-    <script src="./app.js"></script>
+    <script>
+    	$('.action-button').on('click', function(e) {
+    		this.blur();
+    		$.get("https://webhook.site/75e82250-18e8-4a7f-aa71-c62647c44a50", function( data ) {
+			});
+		
+		  $('.action-button').hide();
+		  $('h1').html('CUPCAKERY CONTINUED!!!!');
+    	})
+    </script>
 </html>
