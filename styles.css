@@ -6,6 +6,26 @@ html, body {
   flex-direction: column;
 }
 
+.cupcake-ops {
+  height: 100%;
+  width: 100%;
+  background: url('/assets/wallpaper.jpg');
+  background-repeat: repeat;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Menlo, Monaco, "Consolas", "Courier New", "Courier";
+}
+
+h1 {
+  color: #fff;
+  font-size: 4em;
+}
+.waiting {
+  color: #fff;
+}
+
 .terminal-window {
   text-align: left;
   width: 98%;
